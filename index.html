@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Peng Yu's Homepage</title>
+<link rel="icon" 
+      type="image/jpg" 
+      href="web_images/favicon_pengyu.jpg">
+<style type="text/css">
+<!--
+body {
+font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+background: #42413C;
+margin: 0;
+padding: 0;
+color: #000;
+}
+body p {
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+padding: 0;
+margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin-top: 0; /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+padding-right: 15px;
+padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+    color: rgba(93,93,93,1.00); /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: rgba(0,0,0,1);
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+	text-align: left;
+	color: rgba(0,0,0,1);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+/* ~~ this fixed width container surrounds all other elements ~~ */
+.container {
+	width: 960px;
+	background: #FFF;
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0; /* the auto value on the sides, coupled with the width, centers the layout */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.ml {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 5 pt;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #d6e1f1;
+    overflow: hidden;
+    border-collapse: separate;
+}
+.cg {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 5 pt;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #EBC771;
+    overflow: hidden;
+    border-collapse: separate;
+}
+.vision {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 5 pt;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #c1eb78;
+    overflow: hidden;
+    border-collapse: separate;
+}
+
+	.hci {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    margin: 5 pt;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: #7ed6cc;
+    overflow: hidden;
+    border-collapse: separate;
+}
+
+.animation {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin: 5 pt;
+   padding-top: 3px;
+   padding-right: 3px;
+   padding-left: 3px;
+   padding-bottom: 3px;
+   text-align: center;
+   background-color: #eba878;
+   overflow: hidden;
+   border-collapse: separate;}
+	
+	.sim {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin: 5 pt;
+   padding-top: 3px;
+   padding-right: 3px;
+   padding-left: 3px;
+   padding-bottom: 3px;
+   text-align: center;
+   background-color: #eb7885;
+   overflow: hidden;
+   border-collapse: separate;}
+	
+	.robotic {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin: 5 pt;
+   padding-top: 3px;
+   padding-right: 3px;
+   padding-left: 3px;
+   padding-bottom: 3px;
+   text-align: center;
+   background-color: #9e9e9e;
+   overflow: hidden;
+   border-collapse: separate;}
+	.vis {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin: 5 pt;
+   padding-top: 3px;
+   padding-right: 3px;
+   padding-left: 3px;
+   padding-bottom: 3px;
+   text-align: center;
+   background-color: #f0f573;
+   overflow: hidden;
+   border-collapse: separate;}
+	.medicine {
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   margin: 5 pt;
+   padding-top: 3px;
+   padding-right: 3px;
+   padding-left: 3px;
+   padding-bottom: 3px;
+   text-align: center;
+   background-color: #7eb7d6;
+   overflow: hidden;
+   border-collapse: separate;}
+
+/* ~~ This is the layout information. ~~ 1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+*/
+.content {
+padding: 10px 0;
+}
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+float: right;
+margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+float: left;
+margin-right: 8px;
+}
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the overflow:hidden on the .container is removed */
+clear:both;
+height:0;
+font-size: 1px;
+line-height: 0px;
+}
+.auto-style3 {
+    text-align: left;
+    width: auto;
+    background-color: #CBCBCB;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.auto-style8 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: rgba(0,0,0,1);
+    font-style: normal;
+    font-weight: 400;
+}
+a:hover {
+	color: #6376E6;
+}
+-->
+</style>
+<meta content="Peng Yu" name="author" /><!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/droid-sans-mono:n4:default;asul:n4:default;abel:n4:default.js" type="text/javascript"></script>
+<link href="fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
+</head>
+<body>
+<div class="container">
+<div>
+<table style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellspacing="0" align="center" cellpadding="0">
+<tbody>
+<tr>
+<td valign="bottom" style="text-align: left; width: 148px;"><img src="web_images/pengyu.jpg" width="180" height="204" alt=""/><br />
+</td>
+<td valign="baseline" style="vertical-align: middle;">
+<h1 style="text-align: right;" class="auto-style13"><strong><small>Peng Yu</small></strong></h1>
+<div style="text-align: right;" class="auto-style8"><span class="auto-style8" style="text-align: justify;">Ph.D</span> Candidate<br />
+  <span class="auto-style8" style="text-align: right;">
+    School of Computer Science<br />
+    Beihang University<br />
+    Address: Beijing, China<br />
+    Email: yupeng@buaa.edu.cn <br/>
+    <a href="https://github.com/FantasyVR"><i class="fab fa-fw fa-github" aria-hidden="true" ></i></a> &nbsp&nbsp
+    <a href="https://orcid.org/my-orcid"><i class="fab fa-orcid" aria-hidden="true" ></i></a>&nbsp&nbsp
+    <a href="https://www.linkedin.com/in/yu-peng-03262a59/"><i class="fab fa-linkedin" aria-hidden="true" ></i></a>&nbsp&nbsp
+    <a href="https://www.zhihu.com/people/rainvector"><i class="fab fa-zhihu" aria-hidden="true" ></i></a>&nbsp&nbsp
+  </span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr style="height: 0px; width: 100%;" noshade="noshade" /><table style="text-align: left; margin-left: auto; margin-right: auto; width: 90%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td>
+
+
+<p style="text-align: justify;" class="auto-style8">
+I'm a Ph.D. student  in the <a href="https://vrlab.buaa.edu.cn">State Key Lab of VR Tech & System</a>, School of Computer Science and Engineering (SCSE) of <a href="https://ev.buaa.edu.cn/">Beihang University</a>. 
+Before that, I received my Bachelor's Degree from the Wuhan University of Technology in 2015.
+I'm jointly supervised by Prof. <a href="http://scse.buaa.edu.cn/info/1020/2932.htm"> Aimin Hao</a>, Assistant Prof. <a href="http://shi.buaa.edu.cn/junjun_pan/en/index.htm"> Junjun Pan</a> and Prof. <a href="http://www3.cs.stonybrook.edu/~qin/">Hong Qin</a>.
+My research aims to develop efficient and customized computing methods for challenging problems in  <span class = "cg"> Graphics</span>, <span class="sim">Simulation</span>, <span class="hci">HCI</span>, <span class="medicine">Medical Simulator</span>, and many other applied areas.
+<br />
+<br />
+
+</p></td>
+</tr>
+</tbody>
+</table>
+<h3 class="auto-style3"><strong style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; font-size: 100%; font-style: normal; font-weight: bolder;">Recent Publications </strong></h3>
+
+
+<table style="width: 90%; /* [disabled]height: 173px; */ text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tr>
+    <td height="
+				" colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade" /></td>
+  </tr>
+  <tr>
+    <td height="120" style="text-align: center; vertical-align: middle;"><img src="web_images/simulator_IEEEVR2021.jpg" width="370" height="160" alt=""/></td>
+    <td height="120" class="auto-style8" style="text-align: justify; vertical-align: top; border-collapse: separate;"><b>Peng Yu</b>, <a href="http://shi.buaa.edu.cn/junjun_pan/en/index.htm"> Junjun Pan</a>*, Zhaoxue Wang, Yang Shen, <a href="https://scholar.google.com/citations?user=odVvHp4AAAAJ&hl=zh-CN"> Lili Wang</a>, Jialun Li, <a href="http://scse.buaa.edu.cn/info/1020/2932.htm"> Aimin Hao</a>, Haipeng Wang. &quot;Cognitive Load/flow and Performance in Virtual Reality Simulation Training of Laparoscopic Surgery &quot;, IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR 2021), Poster <a href="PDF/IEEEVR_2021_Poster Honorable Mention.pdf">[<b>Honorable Mention Award</b>]</a>. <br />
+      [<a href="PDF/IEEEVR_2021.pdf">PDF</a>] [<a href="PDF/IEEEVR_Poster.pdf">Poster</a>] [<a href="PDF/IEEEVR_PPT.pdf">PPT</a>] <span class="medicine">Medical Simulator</span> <span class="sim">Simulation</span> <span class="hci">HCI</span> <br /></td>
+  </tr>
+
+	<tr>
+	    <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade" /></td>
+  </tr>
+	  <tr>
+	    <td height="120" style="text-align: center; vertical-align: middle;"><img src="web_images/suturing_CAVW2020.jpg" width="370" height="126" alt=""/></td>
+	    <td height="120" class="auto-style8" style="text-align: justify; vertical-align: top; border-collapse: separate;"><span class="auto-style8" style="text-align: justify; vertical-align: top; border-collapse: separate;"><b>Peng Yu</b>, <a href="http://shi.buaa.edu.cn/junjun_pan/en/index.htm"> Junjun Pan</a>*, <a href="http://www3.cs.stonybrook.edu/~qin/">Hong Qin</a>, <a href="http://scse.buaa.edu.cn/info/1020/2932.htm"> Aimin Hao</a>, Haipeng Wang, &quot;Real-time suturing simulation for virtual reality medical training&quot;, CAVW 2020.<br />
+      [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1940">PDF</a>] <span class="medicine">Medical Simulator</span> <span class="sim">Simulation</span></td>
+      </tr>
+	<tr>
+	  <td colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade" /></td>
+  </tr>
+	  <tr>
+	    <td height="120" style="text-align: center; vertical-align: middle;"><img src="web_images/simulator_IEEEVR2020.png" width="370" height="110" alt=""/></td>
+	    <td height="120" class="auto-style8" style="text-align: justify; vertical-align: top; border-collapse: separate;"><a href="http://shi.buaa.edu.cn/junjun_pan/en/index.htm"> Junjun Pan</a>, Leiyu Zhang(joint first author), <b>Peng Yu</b>(joint first author), Yang Shen, Haipeng Wang, <a href="http://scse.buaa.edu.cn/info/1020/2932.htm"> Aimin Hao</a>, <a href="http://www3.cs.stonybrook.edu/~qin/">Hong Qin</a>,&quot;Real-time VR Simulation of Laparoscopic Cholecystectomy based on Parallel Position-based Dynamics in GPU&quot;,IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR 2020).<br />
+	     [<a href="https://ieeexplore.ieee.org/abstract/document/9089572">PDF</a>]   <span class="medicine">Medical Simulator</span> <span class="sim">Simulation</span><br />
+       </td>
+      </tr>
+	  <tr>
+	<td height="
+		" colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade" /></td>
+  </tr>
+	  <tr>
+	    <td height="120" style="text-align: center; vertical-align: middle;"><img src="web_images/placeholder.png" width="370" height="112" alt=""/></td>
+	    <td height="120" class="auto-style8" style="text-align: justify; vertical-align: top;">Yang Shen, <b>Peng Yu</b>, Hang Lu, Xiangling Zhang, Haijun Zeng,&quot;An AI‐based virtual simulation experimental teaching system in space engineering education&quot;, Computer Applications in Engineering Education 2020. <br />
+        [<a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cae.22221">PDF</a>] <span class="ml">Machine Learning</span><p>&nbsp;</p></td>
+      </tr>
+	  <tr>
+	<td height="
+		" colspan="2" style="text-align: center; vertical-align: middle;"><hr noshade="noshade" /></td>
+  </tr>
+	  <tr>
+	    <td height="120" style="text-align: center; vertical-align: middle;"><img src="web_images/laser_sumary.png" width="370" height="130" alt=""/></td>
+	    <td height="120" class="auto-style8" style="text-align: justify; vertical-align: top;">刘晋，<b>禹 鹏</b>，白隽瑄，傅焕章，潘俊君*, &quot;基于三维激光扫描技术的犯罪现场重建&quot;, 刑事技术, 2017.<br />
+        <span class="auto-style8" style="text-align: justify; vertical-align: top;">[<a href="PDF/3D_Reconstruction_Laser_2017.pdf">PDF</a>] </td>
+    </tr>
+	  
+	</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+	<div style="text-align: left;">
+	  <h3 class="auto-style3"><strong style="font-style: normal; font-weight: bolder; font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, sans-serif; font-size: 100%;">Experience</strong></h3>
+</div>
+<table style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+<tr>
+  <td class="auto-style8">
+  <b>Intern:</b> <a href="https://dev.taichi.graphics/">Taichi Graphics Technology Inc.</a>, 2021  <br />
+  <b>Intern:</b> Peng Cheng Laboratory, 2019 Winter， 2021 Spring <br />
+  <b>Teaching Assistant:</b> <a href="https://yuanming.taichi.graphics/teaching/2020-games201/">GAMES201：Advanced Physics Engines 2020: A Hands-on Tutorial</a>, 2020 Summer<br />
+  <b>Teaching Assistant:</b> <a href="https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html">GAMES101: Introduction to Computer Graphics (in Chinese)</a>, 2020 Spring<br />
+  <b>Teaching Assistant:</b> Physical Experiment of Beihang University, 2018 Autumn<br />
+  </td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3 class="auto-style3"><strong>Partners</strong></h3>
+<table style="width: 90%; text-align: left; margin-left: auto; margin-right: auto;" border="0" cellpadding="2" cellspacing="2">
+  <tbody><tr>
+		<td class="auto-style8"> 
+    <a href="http://shi.buaa.edu.cn/junjun_pan/en/index.htm">Junjun Pan(潘俊君)</a>, Professor at Beihang University <br />
+    <a href="https://junxuanbai.github.io/"> Junxuan Bai(白隽瑄)</a>, PH.D. at Beihang University <br />
+    <a href="https://zhaixiao43.wixsite.com/homepage"> Xiao Zhai(翟骁)</a>, Research Scientist at Digital Weta <br />
+    <a href="https://gaoyangvr.github.io/"> Yang Gao(高阳)</a>, Assistant Researcher at Beihang University <br />
+    <a href="https://dreamchasermxf.github.io/"> Xiangfei Meng(孟祥飞)</a>, Bigo Co., Ltd. <br />
+    <a href="http://hsiatsing.github.io/"> Qing Xia(夏清)</a>, Research Scientist at SenseTime <br />
+<br />
+<hr />
+</td>
+</tr>
+    <tr>
+      <td class="auto-style8">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- end .container --></div>
+</body></html>
