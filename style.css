@@ -5,16 +5,16 @@
 }
 
 :root {
-    --primary: #1a365d;
-    --secondary: #2c5282;
-    --accent: #3182ce;
-    --text: #2d3748;
-    --text-light: #4a5568;
-    --text-muted: #718096;
-    --border: #e2e8f0;
+    --primary: #6B21A8;
+    --secondary: #7C3AED;
+    --accent: #9333EA;
+    --text: #1f2937;
+    --text-light: #4b5563;
+    --text-muted: #9ca3af;
+    --border: #e5e7eb;
     --bg: #ffffff;
-    --bg-light: #f7fafc;
-    --bg-alt: #edf2f7;
+    --bg-light: #f9fafb;
+    --bg-alt: #f3f4f6;
 }
 
 html {
